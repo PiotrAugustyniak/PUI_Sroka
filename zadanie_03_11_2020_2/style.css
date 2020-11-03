@@ -71,10 +71,10 @@ address{
 address a{
   color:#ff9811;
   text-decoration:none;
+    font-weight:bold;
 }
 address a:hover{
   color:red;
-  font-weight:bold;
 }
 footer p{
   color:grey;
