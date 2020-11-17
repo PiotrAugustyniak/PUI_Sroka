@@ -2,7 +2,10 @@ body{
   background-color:#99f6c3;
 }
 hr{
-  border: 2px dashed #30daac;
+  border-top: 2px dashed #30daac;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
 }
 #naglowek{
   text-align:center;
@@ -53,17 +56,19 @@ ul{
   margin-left:30px;
 }
 .guzior{
-  border:2px solid #303030;
-  background-color:grey;
+  border:2px solid rgb(68,68,17);
+  background-color:rgb(204,204,255);
+  color:rgb(68,68,17);
   border-radius:3px;
   padding:5px;
   margin-right:5px;
   margin-bottom:5px;
 }
 input[type="email"], textarea{
-  background-color:#b6b6b6;
-  color:#303030;
+  background-color:rgb(204,204,255);
+  color:rgb(68,68,17);
   margin-left:-15px;
+  font-family:Arial;
 }
 address{
   font-style:italic;
