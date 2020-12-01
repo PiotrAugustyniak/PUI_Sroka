@@ -11,7 +11,7 @@
             </xs:sequence>
           </xs:complexType>
       </xs:element>
-      <xs:element name="przepis" maxOccurs="unbounded">
+      <xs:element name="przepis" minOccurs="0" maxOccurs="unbounded">
             <xs:complexType>
             <xs:sequence>
             <xs:element name="skladnik" minOccurs="1" maxOccurs="unbounded">

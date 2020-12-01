@@ -16,6 +16,7 @@ xmlns="https://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-in
 <nazwa>piers z kurczaka</nazwa>
 <ilosc>400</ilosc>
 <jednostka>gram</jednostka>
+<szczegoly>Moze byc piers z kurczaka lub np. poledwiczki z kurczaka</szczegoly>
 </skladnik>
 <skladnik>
 <nazwa>curry</nazwa>
