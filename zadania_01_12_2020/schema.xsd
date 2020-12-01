@@ -1,4 +1,4 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://www.w3schools.com" xmlns="https://www.w3schools.com" elementFormDefault="qualified"></xs:schema>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://www.w3schools.com" xmlns="https://www.w3schools.com" elementFormDefault="qualified">
 <xs:element name="ksiazka">
   <xs:complexType>
   <xs:sequence>
@@ -12,7 +12,6 @@
           </xs:complexType>
       </xs:element>
       <xs:element name="przepis" maxOccurs="unbounded">
-            <xs:attribute name="title" type="xs:string"/>
             <xs:complexType>
             <xs:sequence>
             <xs:element name="skladnik" minOccurs="1" maxOccurs="unbounded">
@@ -27,8 +26,10 @@
             </xs:element>
             <xs:element name="opis" minOccurs="1" maxOccurs="1" type="xs:string" />
             </xs:sequence>
+            <xs:attribute name="tytul" type="xs:string"/>
             </xs:complexType>
       </xs:element>
 </xs:sequence>
 </xs:complexType>
 </xs:element>
+</xs:schema>
