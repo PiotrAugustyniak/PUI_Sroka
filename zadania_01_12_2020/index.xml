@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ksiazka
+xmlns="https://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.w3schools.com/xml schema.xsd">
+<autor>
+<imie>Piotr</imie>
+<nazwisko>Augustyniak</nazwisko>
+<email>piotr.augustyniak2000@gmail.com</email>
+</autor>
+<przepis tytul="pyszny ryz z kurczakiem">
+<skladnik>
+<nazwa>ryz</nazwa>
+<ilosc>1</ilosc>
+<jednostka>paczka</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>piers z kurczaka</nazwa>
+<ilosc>400</ilosc>
+<jednostka>gram</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>curry</nazwa>
+<ilosc>3</ilosc>
+<jednostka>lyzeczki</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>papryka ostra</nazwa>
+<ilosc>2</ilosc>
+<jednostka>lyzeczki</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>bulka tarta</nazwa>
+<ilosc>100</ilosc>
+<jednostka>gram</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>olej</nazwa>
+<ilosc>2</ilosc>
+<jednostka>lyzki</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>sol</nazwa>
+<ilosc>1</ilosc>
+<jednostka>garsc</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>jajko kurze</nazwa>
+<ilosc>1</ilosc>
+<jednostka>sztuka</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>woda</nazwa>
+<ilosc>300</ilosc>
+<jednostka>mililitrow</jednostka>
+</skladnik>
+<opis>
+  Wstawić wodę do gotowania, gdy sie zagotuje wlozyc ryz na 16 minut.
+  Umyć kurczaka, pokroić w kostkę, przygotować bułkę tartą połączyć z przyprawą curry i ostrą papryką.
+  W osobnym naczyniu przygotowac jajko z sola. Wrzucic kurczaka do jajka i wymieszac.
+  Nastepnie dodac wymieszana z przyprawami bulke tarta do kurczaka w jajku. Starannie obtoczyć i zostawić na 10min.
+  Na patelni rozgrzac olej, i wrzucic odstawionego na 10 min kurczaka. Smazyc az sie zarumieni i nie bedzie surowe.
+  Wyciagnac ryz na talerz i polaczyc z kurczakiem.
+  Pysznie zjesc.
+</opis>
+</przepis>
+<przepis tytul="hamuburger z pysznymi frytami z lidla">
+<skladnik>
+<nazwa>bulka hamburgerowa</nazwa>
+<ilosc>1</ilosc>
+<jednostka>sztuka</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>frytki</nazwa>
+<ilosc>1</ilosc>
+<jednostka>paczka</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>salata</nazwa>
+<ilosc>1</ilosc>
+<jednostka>plaster</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>pomidor</nazwa>
+<ilosc>1</ilosc>
+<jednostka>sztuka</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>cebula</nazwa>
+<ilosc>1</ilosc>
+<jednostka>sztuka</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>olej</nazwa>
+<ilosc>2</ilosc>
+<jednostka>lyzki</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>mieso wolowe</nazwa>
+<ilosc>100</ilosc>
+<jednostka>gram</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>sol</nazwa>
+<ilosc>1</ilosc>
+<jednostka>garsc</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>pieprz</nazwa>
+<ilosc>1</ilosc>
+<jednostka>garsc</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>sos hamburgerowy</nazwa>
+<ilosc>20</ilosc>
+<jednostka>gram</jednostka>
+</skladnik>
+<opis>
+  Wstawić frytki do piekarnika i zacząć piec. Przygotować warzywa, pokroić cebulę, pomidor.
+  Wymieszać mięso z solą i pieprzem, uformować w kulkę i zacząć smażyć na przygotowanej wcześniej patelni z olejem.
+  Zacząć smażyć też pokrojoną cebulę aż będzie rumienista.
+  Po wyciągnieciu frytek, włożyć na 2 minuty bułkę hamburgerową.
+  Po przygotowaniu wszystkiego zacząć formować burgera. Ilość warzyw tak na prawdę zależy od preferencji.
+  Preferowane przeze mnie: na dole i górze bułki sos, później od dołu sałata, pomidor, następnie mięso z cebulą.
+  Po przygotowaniu burgera, przygotować też na talerz frytki.
+  Czas na delektowanie się pysznym jedzeniem.
+</opis>
+</przepis>
+<przepis tytul="pyszny makaron w sosie brokulowo-serowym">
+<skladnik>
+<nazwa>makaron pełnoziarnisty</nazwa>
+<ilosc>200</ilosc>
+<jednostka>gram</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>woda</nazwa>
+<ilosc>400</ilosc>
+<jednostka>mililitrow</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>sol</nazwa>
+<ilosc>1</ilosc>
+<jednostka>garsc</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>knor sos brokulowo-serowy</nazwa>
+<ilosc>1</ilosc>
+<jednostka>sztuka</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>brokol</nazwa>
+<ilosc>200</ilosc>
+<jednostka>gram</jednostka>
+</skladnik>
+<skladnik>
+<nazwa>smietana 18%</nazwa>
+<ilosc>50</ilosc>
+<jednostka>ml</jednostka>
+</skladnik>
+<opis>
+  Wstawić 250 mililitrow wody na gotowanie wraz solą. Gdy woda będzie się gotować włożyć makaron na ok 10 min, aż bedzie miekki.
+  Brokul oplukac i pokroic w kostke. Przygotowac 150 mililitrow wody wymieszac z sosem w proszku i smietana.
+  Trzeba wymieszac dokladnie zeby nie bylo grudek.
+  Wlozyc przygotowany sos w proszku na patelnie. Dodac pokrojony w kostke brokul.
+  Gotowac tak dlugo, az brokul nie zmiekknie. W razie potrzeby dodawać wody.
+  Przygotowany sos z brokulami przygotowac na talerzu z makaronem, pysznie zjesc.
+</opis>
+</przepis>
+</ksiazka>
