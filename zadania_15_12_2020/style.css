@@ -8,6 +8,8 @@ ksiazka:before{
   display:block;
   text-align:center;
   margin-bottom:10px;
+  text-shadow: 1px 1px 2px black;
+
 }
 ksiazka{
   display:block;
@@ -24,6 +26,7 @@ ksiazka{
 imie:before{
   content:"Autor";
   color:rgb(238, 30, 136);
+  text-shadow: 1px 1px 2px rgb(238, 30, 136);
   display:block;
   border-bottom:1px solid rgb(238, 30, 136);
   font-size:30px;
@@ -33,6 +36,7 @@ przepis:before{
   content:attr(tytul);
   color:blue;
   display:block;
+  text-shadow: 1px 1px 2px blue;
   border-bottom:1px solid blue;
   font-size:30px;
   margin-bottom:10px;
