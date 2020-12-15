@@ -1,0 +1,83 @@
+*{
+  margin:0;
+  padding:0;
+}
+ksiazka:before{
+  content:"Książka Kucharska";
+  font-size: 30px;
+  display:block;
+  text-align:center;
+  margin-bottom:10px;
+}
+ksiazka{
+  display:block;
+  margin:20px;
+  box-shadow: 5px 5px 5px black;
+  border:2px solid black;
+  background-color:white;
+  content:"Książka Kucharska";
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:15px;
+
+}
+imie:before{
+  content:"Autor";
+  color:rgb(238, 30, 136);
+  display:block;
+  border-bottom:1px solid rgb(238, 30, 136);
+  font-size:30px;
+  margin-bottom:10px;
+}
+przepis:before{
+  content:attr(tytul);
+  color:blue;
+  display:block;
+  border-bottom:1px solid blue;
+  font-size:30px;
+  margin-bottom:10px;
+}
+skladnik:first-child:before{
+content:"Składniki";
+display:block;
+clear:both;
+font-weight:bold;
+}
+skladnik{
+  display:block;
+  color:black;
+  margin-right:200px;
+}
+skladnik *{
+  display:inline-block;
+  width:20%;
+  margin-bottom:5px;
+}
+autor, przepis{
+display:block;
+background-color:rgb(238,221,170);
+border:1px solid brown;
+box-shadow: 3px 3px 5px brown;
+margin-bottom:6px;
+padding:10px;
+}
+autor imie{
+  margin-right:10%;
+}
+autor nazwisko{
+  margin-right:10%;
+}
+autor email{
+  color:rgb(238, 30, 136);
+}
+opis:before{
+  content:"Opis";
+  display:block;
+  font-weight:bold;
+  margin-bottom:2px;
+}
+opis{
+  margin-top:5px;
+  border:2px dotted black;
+  display:block;
+}
