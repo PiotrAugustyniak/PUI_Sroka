@@ -26,7 +26,7 @@
             </xs:element>
             <xs:element name="opis" minOccurs="1" maxOccurs="1" type="xs:string" />
             </xs:sequence>
-            <xs:attribute name="tytul" type="xs:string"/>
+            <xs:attribute name="tytul" type="xs:string" use="required"/>
             </xs:complexType>
       </xs:element>
 </xs:sequence>
