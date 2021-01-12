@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="root">
+    <div id="blokMenu">
+    <ul>
+      <li><p id="guzik1">Menu stylu</p>
+        <ul>
+          <li class="chowanie" id="pink">styl 1</li>
+          <li class="chowanie" id="green">styl 2</li>
+          <li class="chowanie" id="blue">styl 3</li>
+        </ul>
+      </li>
+      <li> <p id="guzik2">Menu treści</p>
+        <ul>
+          <li class="chowanie2" id="tekst">Tekst</li>
+          <li class="chowanie2" id="zdjecie">Zdjęcia</li>
+        </ul>
+      </li>
+    </ul>
+    </div>
+    <div id="blokGlowny">
+      <p>Przykładowa zawartość</p>
+    </div>
+    </div>
+    <script>
+      $(document).ready(function(){
+      $(".chowanie").css('display','none');
+      $(".chowanie2").css('display','none');
+      $("#guzik1").click(function() {
+        $(".chowanie").toggle();
+      })
+      $("#guzik2").click(function() {
+        $(".chowanie2").toggle();
+      })
+      $("#pink").click(function() {
+        $("#blokMenu").addClass("rozowy");
+        $("blokGlowny").addClass("rozowy");
+      })
+
+      });
+    </script>
+  </body>
+</html>

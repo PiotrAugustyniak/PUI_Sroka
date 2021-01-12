@@ -1,0 +1,42 @@
+#root{
+  display:flex;
+  justify-content: center;
+}
+#blokMenu{
+  width: 200px;
+  min-height:200px;
+  background-color:grey;
+  color:black;
+}
+#blokGlowny{
+  float:left;
+  width:800px;
+  min-height: 200px;
+  background-color:grey;
+  color:black;
+  margin-left:5px;
+}
+ul li{
+  font-size:14pt;
+  font-weight: bold;
+  font-variant:small-caps;
+  border-bottom:white solid 2px;
+  list-style-type: none;
+}
+ul li ul li{
+  font-size:12pt;
+  border-bottom:white dotted 1px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  list-style-type: none;
+  margin-bottom:5px;
+}
+.rozowy{
+  background-color:pink;
+  color:red;
+}
+li p{
+  margin:0;
+  padding:0;
+}
