@@ -50,6 +50,16 @@
         $("#blokMenu").css({"background-color":"green","color":"yellow"});
         $("#blokGlowny").css({"background-color":"green","color":"yellow"});
       })
+      $("#tekst").click(function() {
+        $("#blokGlowny").text('');
+        $("#blokGlowny").append('<h2>Pierwsza podstrona</h2>');
+        $("#blokGlowny").append('<p>To jest przykladowa zawartosc dla pierwszego elementu menu</p>');
+      })
+      $("#zdjecie").click(function() {
+        $("#blokGlowny").text('');
+        $("#blokGlowny").append('<h2>Druga podstrona</h2>');
+        $("#blokGlowny").append('<img src="babyyoda.jpg" id="zdjecieCaleTe"/>');
+      })
       });
     </script>
   </body>
