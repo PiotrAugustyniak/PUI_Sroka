@@ -41,26 +41,36 @@
       $("#pink").click(function() {
         $("#blokMenu").css({"background-color":"pink","color":"red"});
         $("#blokGlowny").css({"background-color":"pink","color":"red"});
+        $(".chowanie").toggle();
       })
       $("#blue").click(function() {
         $("#blokMenu").css({"background-color":"blue","color":"white"});
         $("#blokGlowny").css({"background-color":"blue","color":"white"});
+        $(".chowanie").toggle();
       })
       $("#green").click(function() {
         $("#blokMenu").css({"background-color":"green","color":"yellow"});
         $("#blokGlowny").css({"background-color":"green","color":"yellow"});
+        $(".chowanie").toggle();
       })
       $("#tekst").click(function() {
         $("#blokGlowny").text('');
         $("#blokGlowny").append('<h2>Pierwsza podstrona</h2>');
         $("#blokGlowny").append('<p>To jest przykladowa zawartosc dla pierwszego elementu menu</p>');
+        $(".chowanie2").toggle();
       })
       $("#zdjecie").click(function() {
         $("#blokGlowny").text('');
         $("#blokGlowny").append('<h2>Druga podstrona</h2>');
         $("#blokGlowny").append('<img src="babyyoda.jpg" id="zdjecieCaleTe"/>');
+        $("#zdjecieCaleTe").mouseover(function() {
+        $(this).animate({opacity:'0.5',height:'300px',width:'300px'})
+        })
+        $("#zdjecieCaleTe").mouseleave(function() {
+        $(this).animate({opacity:'1',height:'200px',width:'200px'})
+        })
+        });
       })
-      });
     </script>
   </body>
 </html>
