@@ -39,10 +39,17 @@
         $(".chowanie2").toggle();
       })
       $("#pink").click(function() {
-        $("#blokMenu").addClass("rozowy");
-        $("blokGlowny").addClass("rozowy");
+        $("#blokMenu").css({"background-color":"pink","color":"red"});
+        $("#blokGlowny").css({"background-color":"pink","color":"red"});
       })
-
+      $("#blue").click(function() {
+        $("#blokMenu").css({"background-color":"blue","color":"white"});
+        $("#blokGlowny").css({"background-color":"blue","color":"white"});
+      })
+      $("#green").click(function() {
+        $("#blokMenu").css({"background-color":"green","color":"yellow"});
+        $("#blokGlowny").css({"background-color":"green","color":"yellow"});
+      })
       });
     </script>
   </body>
